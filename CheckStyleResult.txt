@@ -1,0 +1,21 @@
+Checkstyle found 9 item(s) in 1 file(s)
+AverageCalculator.java : 9 item(s)
+Пропущен файл package-info.java. (1:0) [JavadocPackage]
+Похоже, что класс 'AverageCalculator' предназначен для расширения (может быть подклассом),
+но у метода 'calculateAverage' нет javadoc с описанием того, как это безопасно сделать.
+Если класс не предназначен для расширения, то сделайте класс
+'AverageCalculator' final или сделайте метод 'calculateAverage' static/final/abstract/пустым,
+или добавьте методу разрешенную аннотацию. (5:5) [DesignForExtension]
+Пропущен Javadoc комментарий. (5:5) [MissingJavadocMethod]
+Параметр numbers должен быть final. (5:36) [FinalParameters]
+Похоже, что класс 'AverageCalculator' предназначен для расширения (может быть подклассом),
+но у метода 'compareAverages' нет javadoc с описанием того, как это безопасно сделать.
+Если класс не предназначен для расширения, то сделайте класс 'AverageCalculator' final
+или сделайте метод 'compareAverages' static/final/abstract/пустым,
+или добавьте методу разрешенную аннотацию. (18:5) [DesignForExtension]
+Пропущен Javadoc комментарий. (18:5) [MissingJavadocMethod]
+Параметр list1 должен быть final. (18:35) [FinalParameters]
+Параметр list2 должен быть final. (18:56) [FinalParameters]
+Длина строки больше 80 (всего 83). (19:0) [LineLength]
+
+
